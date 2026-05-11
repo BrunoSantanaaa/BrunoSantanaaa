@@ -1,0 +1,75 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1200" height="280" fill="#0D1117"/>
+
+  <defs>
+    <linearGradient id="purpleGradient" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#5B2C6F">
+        <animate attributeName="stop-color" values="#5B2C6F;#7B5592;#4A235A;#5B2C6F" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8E44AD">
+        <animate attributeName="stop-color" values="#8E44AD;#BB8FCE;#6C3483;#8E44AD" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#2E1A47">
+        <animate attributeName="stop-color" values="#2E1A47;#5B2C6F;#1B1028;#2E1A47" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="20" width="1200" height="140" fill="url(#purpleGradient)"/>
+
+  <circle cx="120" cy="80" r="6" fill="white" opacity="0.4">
+    <animate attributeName="cy" values="80;60;80" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1030" cy="75" r="5" fill="white" opacity="0.4">
+    <animate attributeName="cy" values="75;55;75" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="970" cy="110" r="4" fill="white" opacity="0.4">
+    <animate attributeName="cy" values="110;90;110" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M0 150 C150 165 180 130 250 175 C310 215 350 170 430 180 C560 200 660 205 800 175 C900 155 900 215 1000 175 C1080 145 1100 175 1200 150 L1200 280 L0 280 Z" fill="#2A2438">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -30 0; 0 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <path d="M0 145 C180 155 160 175 240 180 C310 185 315 230 385 165 C430 125 520 185 650 160 C750 140 735 185 805 175 C865 165 870 125 930 140 C985 155 975 130 1045 125 C1110 120 1110 150 1200 140" stroke="#D9D2E8" stroke-width="34" stroke-opacity="0.75">
+    <animateTransform attributeName="transform" type="translate" values="0 0; 25 0; 0 0" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <rect x="210" y="45" width="780" height="90" rx="18" fill="#5B4070" opacity="0.95">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="300" y="98" fill="white" font-size="46" font-family="monospace" font-weight="700" letter-spacing="8" filter="url(#glow)">
+    Bruno Santana
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="690" y="126" fill="white" font-size="25" font-family="Arial" font-style="italic" font-weight="700">
+    Computer Science Student
+    <animate attributeName="x" values="690;705;690" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <text x="72" y="230" fill="#E6E6E6" font-size="28" font-family="Arial" font-weight="700">
+    Design • Backend • Technology
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <line x1="72" y1="245" x2="420" y2="245" stroke="#BB8FCE" stroke-width="4" stroke-linecap="round">
+    <animate attributeName="x2" values="120;420;120" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+</svg>
