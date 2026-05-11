@@ -1,5 +1,5 @@
 <img src="./assets/banner.svg" width="100%" alt="Banner Bruno Santana" /> 
-# Olá, eu sou Bruno Santana 
+Olá, eu sou Bruno Santana 
 
 Sou estudante de Ciência da Computação, formado em Design Gráfico, com interesse em desenvolvimento de software, tecnologia, inteligência artificial e soluções digitais.
 
@@ -19,7 +19,7 @@ Atualmente estou desenvolvendo minhas habilidades em programação, lógica, bac
 
 ---
 
-##  Tecnologias e ferramentas que estou estudando
+Tecnologias e ferramentas que estou estudando
 
 - Java
 - Python
@@ -33,7 +33,7 @@ Atualmente estou desenvolvendo minhas habilidades em programação, lógica, bac
 
 ---
 
-##  Projetos e interesses
+Projetos e interesses
 
 Atualmente estou estudando e praticando projetos relacionados a:
 
@@ -47,19 +47,19 @@ Atualmente estou estudando e praticando projetos relacionados a:
 
 ---
 
-##  Objetivo
+Objetivo
 
 Meu objetivo é crescer como desenvolvedor, construir projetos práticos e entrar no mercado de tecnologia, unindo minha base criativa em design com meus estudos em programação e desenvolvimento de sistemas.
 
 ---
 
-##  Como entrar em contato
+Como entrar em contato
 
 - GitHub: [BrunoSantanaaa](https://github.com/BrunoSantanaaa)
 - LinkedIn: www.linkedin.com/in/bruno-santana-8561b23b4
 - E-mail: bruno.santana@edu.unifil.br
 ---
 
-##  Curiosidade
+Curiosidade
 
 Gosto de aprender tecnologia na prática, criando projetos, testando ferramentas e transformando ideias em soluções reais.
