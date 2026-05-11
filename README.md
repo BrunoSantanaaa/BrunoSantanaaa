@@ -60,7 +60,8 @@ Como entrar em contato
 ## Conecte-se comigo
 
 <a href="https://www.linkedin.com/in/bruno-santana-8561b23b4" target="_blank">
-  <img src="linkedin-icon1.jpg" alt="LinkedIn Bruno Santana" width="180" />
+  <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/linkedin-icon1.jpg" 
+       alt="LinkedIn Bruno Santana" width="180" />
 </a> 
 
 - E-mail: bruno.santana@edu.unifil.br
