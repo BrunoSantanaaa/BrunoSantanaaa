@@ -56,7 +56,11 @@ Meu objetivo é crescer como desenvolvedor, construir projetos práticos e entra
 Como entrar em contato
 
 - GitHub: [BrunoSantanaaa](https://github.com/BrunoSantanaaa)
-- LinkedIn: www.linkedin.com/in/bruno-santana-8561b23b4
+## Conecte-se comigo
+
+<a href="https://www.linkedin.com/in/bruno-santana-8561b23b4" target="_blank">
+  <img src="assets/linkedin-icon1.jpg" alt="LinkedIn Bruno Santana" width="180" />
+</a>
 - E-mail: bruno.santana@edu.unifil.br
 ---
 
