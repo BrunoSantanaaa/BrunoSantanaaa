@@ -1,23 +1,170 @@
 <svg width="1200" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7E5A98">
+        <animate attributeName="stop-color" values="#7E5A98;#8962A7;#7E5A98" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#74568C">
+        <animate attributeName="stop-color" values="#74568C;#8663A4;#74568C" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8A68A8">
+        <animate attributeName="stop-color" values="#8A68A8;#9A74BA;#8A68A8" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" stop-color="#5B4070"/>
+      <stop offset="100%" stop-color="#4B3560"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <linearGradient id="waveGlow" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#E7E2F4" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#F2EEFF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#E7E2F4" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <clipPath id="bannerClip">
+      <rect x="0" y="0" width="1200" height="280" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <!-- fundo escuro -->
   <rect width="1200" height="280" fill="#0D1117"/>
 
-  <rect x="0" y="20" width="1200" height="140" fill="#7B5592"/>
+  <!-- faixa roxa principal -->
+  <rect x="0" y="30" width="1200" height="135" fill="url(#bgGradient)"/>
 
-  <path d="M0 150 C150 165 180 130 250 175 C310 215 350 170 430 180 C560 200 660 205 800 175 C900 155 900 215 1000 175 C1080 145 1100 175 1200 150 L1200 280 L0 280 Z" fill="#2A2438"/>
+  <!-- camada roxa translúcida para profundidade -->
+  <rect x="0" y="30" width="1200" height="135" fill="#FFFFFF" opacity="0.03">
+    <animate attributeName="opacity" values="0.03;0.07;0.03" dur="5s" repeatCount="indefinite"/>
+  </rect>
 
-  <path d="M0 145 C180 155 160 175 240 180 C310 185 315 230 385 165 C430 125 520 185 650 160 C750 140 735 185 805 175 C865 165 870 125 930 140 C985 155 975 130 1045 125 C1110 120 1110 150 1200 140" stroke="#D9D2E8" stroke-width="34" stroke-opacity="0.75"/>
+  <!-- card do nome -->
+  <rect x="250" y="55" width="800" height="86" rx="16" fill="url(#cardGradient)" opacity="0.95">
+    <animate attributeName="opacity" values="0.92;0.98;0.92" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <rect x="210" y="45" width="780" height="90" rx="18" fill="#5B4070" opacity="0.95"/>
+  <!-- brilho passando no card -->
+  <rect x="-220" y="45" width="120" height="110" fill="white" opacity="0.07" transform="rotate(12)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="-220 0;1350 0"
+      dur="3.8s"
+      repeatCount="indefinite"/>
+  </rect>
 
-  <text x="300" y="98" fill="white" font-size="46" font-family="monospace" font-weight="700" letter-spacing="8">
+  <!-- texto principal -->
+  <text x="350" y="113"
+        fill="white"
+        font-size="48"
+        font-family="Georgia, serif"
+        font-weight="700"
+        letter-spacing="10"
+        filter="url(#textGlow)">
     Bruno Santana
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
   </text>
 
-  <text x="690" y="126" fill="white" font-size="25" font-family="Arial" font-style="italic" font-weight="700">
-    Computer Science Student
+  <!-- subtítulo -->
+  <text x="885" y="138"
+        fill="white"
+        font-size="24"
+        font-family="Arial, sans-serif"
+        font-style="italic"
+        font-weight="600">
+    Backend Developer
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="0 0;6 0;0 0"
+      dur="3.5s"
+      repeatCount="indefinite"/>
   </text>
 
-  <text x="72" y="230" fill="#E6E6E6" font-size="28" font-family="Arial" font-weight="700">
-    Design • Backend • Technology
-  </text>
+  <!-- ondas escuras de fundo -->
+  <g clip-path="url(#bannerClip)">
+    <path d="M0 165 C100 170, 180 185, 250 220 C320 250, 430 220, 520 210 C650 195, 760 210, 900 225 C1040 240, 1130 210, 1200 190 L1200 280 L0 280 Z"
+          fill="#3A2E4A" opacity="0.85">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;-35 0;0 0"
+        dur="7s"
+        repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 145 C100 150, 220 150, 310 165 C420 185, 540 185, 660 170 C780 155, 930 150, 1060 160 C1125 165, 1160 168, 1200 170 L1200 280 L0 280 Z"
+          fill="#4D3B63" opacity="0.42">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;28 0;0 0"
+        dur="6s"
+        repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- linha clara principal, como no banner que você gostou -->
+  <g filter="url(#softGlow)">
+    <path d="M0 170
+             C70 172, 125 190, 160 245
+             C190 290, 250 285, 285 235
+             C315 195, 385 185, 470 205
+             C560 225, 650 225, 745 220
+             C820 216, 860 198, 900 205
+             C940 212, 970 165, 1015 175
+             C1055 184, 1085 246, 1140 245
+             C1190 244, 1185 185, 1200 182"
+          stroke="url(#waveGlow)"
+          stroke-width="34"
+          fill="none"
+          stroke-linecap="round">
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="0 0;18 0;0 0"
+        dur="4.5s"
+        repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- brilho secundário -->
+  <path d="M0 172
+           C70 175, 125 192, 160 242
+           C190 285, 250 280, 285 233
+           C315 198, 385 188, 470 206
+           C560 224, 650 224, 745 218
+           C820 214, 860 198, 900 205
+           C940 212, 970 167, 1015 177
+           C1055 187, 1085 243, 1140 242
+           C1190 240, 1185 186, 1200 184"
+        stroke="#CFAEFF"
+        stroke-opacity="0.45"
+        stroke-width="12"
+        fill="none"
+        stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.28;0.58;0.28" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- glow suave no topo -->
+  <rect x="0" y="30" width="1200" height="135" fill="white" opacity="0.02">
+    <animate attributeName="opacity" values="0.02;0.06;0.02" dur="4s" repeatCount="indefinite"/>
+  </rect>
 </svg>
