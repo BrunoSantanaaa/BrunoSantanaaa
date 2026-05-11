@@ -1,3 +1,4 @@
+<img src="./assets/banner.svg" width="100%" alt="Banner Bruno Santana" /> 
 # Olá, eu sou Bruno Santana 
 
 Sou estudante de Ciência da Computação, formado em Design Gráfico, com interesse em desenvolvimento de software, tecnologia, inteligência artificial e soluções digitais.
