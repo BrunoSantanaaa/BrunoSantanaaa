@@ -58,7 +58,7 @@ Como entrar em contato
 - GitHub: [BrunoSantanaaa](https://github.com/BrunoSantanaaa)
 
 <a href="https://www.linkedin.com/in/bruno-santana-8561b23b4" target="_blank">
-  <img src="https://raw.githubusercontent.com/BrunoSantanaaa/BrunoSantanaaa/main/linkedin-icon1.jpg" 
+  <img src="https://raw.githubusercontent.com/BrunoSantanaaa/BrunoSantanaaa/main/assets/linkedin-83.png" 
        alt="LinkedIn Bruno Santana" width="180" />
 </a>
 
