@@ -13,7 +13,8 @@ Atualmente estou desenvolvendo minhas habilidades em programação, lógica, fro
 -  Formação em Design Gráfico
 -  Interesse em desenvolvimento front-end
 -  Interesse em Inteligência Artificial
--  Interesse em tecnologia aplicada ao mercado financeiro
+-  Projeto em desenvolvimento : aplicativo em Python para investimentos na bolsa de valor americana, com
+  foco no setor de semicondutores 
 -  Atualmente aprendendo lógica de programação, Java, Python, GitHub, Análise de dados, Machine learning e desenvolvimento de software
 -  Inglês avançado e espanhol básico
 
