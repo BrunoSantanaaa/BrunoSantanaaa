@@ -59,7 +59,7 @@ Como entrar em contato
 
 <a href="https://www.linkedin.com/in/bruno-santana-8561b23b4" target="_blank">
   <img src="https://raw.githubusercontent.com/BrunoSantanaaa/BrunoSantanaaa/main/assets/linkedin-83.png" 
-       alt="LinkedIn Bruno Santana" width="180" />
+       alt="LinkedIn Bruno Santana" width="32" />
 </a>
 
 - E-mail: brunosublondrina@gmail.com
