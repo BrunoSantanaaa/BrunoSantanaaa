@@ -14,7 +14,7 @@ Atualmente estou desenvolvendo minhas habilidades em programação, lógica, fro
 -  Interesse em desenvolvimento front-end
 -  Interesse em Inteligência Artificial
 -  Interesse em tecnologia aplicada ao mercado financeiro
--  Atualmente aprendendo lógica de programação, Java, Pyton, GitHub, Analise de dados, Machine learning e desenvolvimento de software
+-  Atualmente aprendendo lógica de programação, Java, Python, GitHub, Analise de dados, Machine learning e desenvolvimento de software
 -  Inglês avançado e espanhol básico
 
 ---
