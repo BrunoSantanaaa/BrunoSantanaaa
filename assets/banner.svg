@@ -89,7 +89,7 @@
         font-family="Arial, sans-serif"
         font-style="italic"
         font-weight="600">
-Front-end Developer | Data & ML Enthusiast       <animateTransform  attributeName="transform"
+Front-end Developer | Data &amp; ML Enthusiast       <animateTransform  attributeName="transform"
       type="translate"
       values="0 0;6 0;0 0"
       dur="3.5s"
